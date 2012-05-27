@@ -1,5 +1,5 @@
 {
-	"working_dir": "${folders.path}",
+	"working_dir": "${project_path:${folder}}",
 	"cmd": ["mdtool", "build", "-t:Build"],
     "file_regex": "^\\s*(.*\\.cs)\\(([0-9]*)\\,([0-9]*)\\)\\:\\s*(.*)$",
     "selector": "source.monodevelop, source.cs"
