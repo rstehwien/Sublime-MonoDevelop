@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>sln</string>
+		<string>csproj</string>
+	</array>
+	<key>name</key>
+	<string>MonoDevelop</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops like $1, $2...</string>
+			<key>match</key>
+			<string>\$\d+</string>
+			<key>name</key>
+			<string>keyword.source.monodevelop</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.monodevelop</string>
+	<key>uuid</key>
+	<string>3f73514f-69ab-4b18-9ab1-736e7ab42d5a</string>
+</dict>
+</plist>

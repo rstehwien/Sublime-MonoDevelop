@@ -1,0 +1,13 @@
+{ 
+	"name": "MonoDevelop",
+	"scopeName": "source.monodevelop",
+	"fileTypes": ["sln", "csproj"],
+	"patterns": [
+		{ 
+			"match": "\\$\\d+",
+			"name": "keyword.source.monodevelop",
+			"comment": "Tab stops like $1, $2..."
+		}
+	],
+	"uuid": "3f73514f-69ab-4b18-9ab1-736e7ab42d5a"
+}
